@@ -12,14 +12,14 @@ Download the requirements.txt file and run the following command in your termina
 ## How to install virtual environment
 In the command terminal run the following.
 
-	You can install virtual environment using pip:
-	py -m pip install --user virtualenv
+You can install virtual environment using pip:
+py -m pip install --user virtualenv
  
-	For creating new environment:
-	py -m venv myproject
+For creating new environment:
+py -m venv myproject
  
-	To activate your virtual environment:
-	.\myproject\Scripts\activate
+To activate your virtual environment:
+.\myproject\Scripts\activate
 
 ## How to run Docker
 First create a Docker account [here](https://hub.docker.com/)
