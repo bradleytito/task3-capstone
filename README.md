@@ -12,7 +12,7 @@ Download the requirements.txt file and run the following command in your termina
 ## How to install virtual environment
 In the command terminal run the following.
 
-	*You can install virtual environment using pip:*
+	_You can install virtual environment using pip:_
 	py -m pip install --user virtualenv
  
 	*For creating new environment:*
