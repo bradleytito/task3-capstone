@@ -1,0 +1,43 @@
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<style>
+		body {
+		background-image: url('https://www.rollingstone.com/wp-content/uploads/2020/02/Dem_5.0Wz.jpg');
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		}
+	</style>
+</head>
+
+<br>
+
+<body>
+	<div class = "row" align="center">
+		<div class = "col-md-4">
+			<a href = "{% url 'website:biography' %}">
+			<button>See Biography</button>
+			</a>
+		</div>
+
+		<div class = "col-md-4">
+			<a href = "{% url 'website:area_serviced' %}">
+			<button>See Planets Serviced</button>
+			</a>
+		</div>
+
+		<div class = "col-md-4">
+			<a href = "{% url 'website:endorsements' %}">
+			<button>See Endorsements</button>
+			</a>
+		</div>
+	</div>
+
+	<br><br>
+
+	<div class = "row" align="center">
+		<div class = "col-md-12">
+			<h1 style="color:White"><b>Me for Governor!!!</b></h1>
+		</div>
+	</div>
+</body>
