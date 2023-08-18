@@ -22,7 +22,7 @@ py -m venv myproject
 .\myproject\Scripts\activate
 
 ## How to run Docker
-First create a Docker account [here](https://hub.docker.com/)
+First create a Docker account [here](https://hub.docker.com/).
 
 Then head over to [Docker Playground](https://labs.play-with-docker.com/)
 Once on Docker Playground, add a new instance and enter the following:
